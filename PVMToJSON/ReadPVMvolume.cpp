@@ -1,5 +1,5 @@
 // (c) orginal was made by Stefan Roettger, licensed under GPL 2+
-// (c) Minor porting and edits were made by Thomas Clarke under GPL 2+
+// (c) Minor porting and edits were made by Thomas Clarke under GPL 3+
 // see original code at https://sourceforge.net/projects/volren/
 
 #include "ReadPVMvolume.h"
