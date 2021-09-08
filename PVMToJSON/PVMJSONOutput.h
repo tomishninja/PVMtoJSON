@@ -26,8 +26,7 @@ public:
 
 	std::string ToJSON(){
 		// The string continating the json
-		std::string output = "{" + NEWLINE + "\"volume\" : {";
-		output.append(NEWLINE);
+		std::string output = "{" + NEWLINE;
 		
 		// write the volume details
 		output.append("\"width\" : ");
@@ -62,8 +61,6 @@ public:
 				output.append("],");
 			}
 		}
-		output.append(NEWLINE);
-		output.append("}");
 		output.append(NEWLINE);
 		output.append("}");
 
